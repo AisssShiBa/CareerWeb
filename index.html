@@ -1,0 +1,1599 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="sticky-top-wrapper">
+      <header>
+        <div class="logo">
+          <img src="./img/logo.webp" alt="" />
+        </div>
+        <div class="menu">
+          <li class="has-dropdown">
+            Tìm Việc Làm
+
+            <div class="dropdown dropdown-mega">
+              <div class="column">
+                <h4>VIỆC LÀM</h4>
+                <p>Việc làm mới nhất</p>
+                <p>Việc làm Vip</p>
+                <p>Top Headhunter</p>
+                <h4>CÔNG TY</h4>
+                <p>Danh sách công ty đăng tuyển</p>
+                <p>Doanh nghiệp yêu thích</p>
+              </div>
+
+              <div class="column">
+                <h4>VIỆC LÀM PHỔ BIẾN</h4>
+                <p>Việc làm online</p>
+                <p>Part time</p>
+                <p>Logistics</p>
+              </div>
+
+              <div class="column">
+                <h4>VIÊC LÀM THEO KHU VỰC</h4>
+                <p>TPHCM</p>
+                <p>Hà Nội</p>
+              </div>
+
+              <div class="column">
+                <h4>NGÀNH NGHỀ PHỔ BIẾN</h4>
+                <p>Ngân hàng</p>
+                <p>Kế toán</p>
+              </div>
+            </div>
+          </li>
+          <li><a href="">CV Hay</a></li>
+          <li><a href="">VietnamSalary</a></li>
+          <li><a href="">CareerMap</a></li>
+          <li><a href="">cẩm Nang</a></li>
+          <li><a href="">CareerStart</a></li>
+          <li><a href="">Tiện Ích</a></li>
+        </div>
+        <div class="other">
+          <li class="has-dropdown">
+            <a href=""> <i class="fa-solid fa-bell"></i> thông báo việc làm</a>
+            <div class="dropdown dropdown-notice">
+              <h5>thông báo việc làm</h5>
+              <h6>Chào mừng bạn đến với CareerViet</h6>
+              <p>
+                Tạo thông báo việc làm để xem việc làm phù hợp với bạn, nhà
+                tuyển dụng đã xem hồ sơ của bạn và cập nhật nhiều hơn nữa ...
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <a href=""> <i class="fa-solid fa-user"></i> Đăng nhập</a>
+          </li>
+          <li class="has-dropdown">
+            <a href="">vi<i class="fa-solid fa-chevron-down"></i></a>
+            <div class="dropdown dropdown-vi">
+              <a href="">VI</a> <a href="">EN</a>
+            </div>
+          </li>
+          <li class="has-dropdown">
+            <div class="recruitment">
+              <a href=""
+                ><b>Dành cho tuyển dụng</b
+                ><i class="fa-solid fa-chevron-down"></i
+              ></a>
+              <p>Đăng tuyển, tìm ứng viên</p>
+              <div class="dropdown dropdown-career">
+                <a href="">Đăng nhập</a>
+                <a href="">Đăng tuyển dụng</a>
+                <a href="">Tìm ứng viên</a>
+                <a href="">Sản phẩm và dịch vụ</a>
+              </div>
+            </div>
+          </li>
+        </div>
+      </header>
+      <section class="search-bar">
+        <input type="text" placeholder="Chức danh, Kỹ năng, Tên công ty" />
+        <input type="text" placeholder="Ngành nghề" />
+        <input type="text" placeholder="Tỉnh, Thành phố" />
+        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        <div class="toggle">
+          <input type="checkbox" id="switch" />
+          <label for="switch"></label>
+          <span>Doanh nghiệp yêu thích</span>
+        </div>
+      </section>
+
+      <div class="filter-container">
+        <div class="filter-dropdown">
+          <div class="selection">
+            Mức Lương<i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <ul class="option">
+            <li>Từ 3.000.000 đ</li>
+            <li>Từ 5.000.000 đ</li>
+            <li>Từ 8.000.000 đ</li>
+            <li>Từ 10.000.000 đ</li>
+          </ul>
+        </div>
+        <div class="filter-dropdown">
+          <div class="selection">
+            Cấp bậc<i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <ul class="option">
+            <li>Sinh viên/Thực tập sinh</li>
+            <li>Mới tốt nghiệp</li>
+            <li>Nhân viên</li>
+            <li>Quản lý</li>
+          </ul>
+        </div>
+        <div class="filter-dropdown">
+          <div class="selection">
+            Đăng trong vòng<i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <ul class="option">
+            <li>3 ngày trước</li>
+            <li>1 tuần trước</li>
+            <li>2 tuần trước</li>
+            <li>1 tháng trước</li>
+          </ul>
+        </div>
+        <div class="filter-dropdown">
+          <div class="selection">
+            Hình thức việc làm<i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <ul class="option">
+            <li>Nhân viên chính thức</li>
+            <li>Tạm thời/Dự án</li>
+            <li>Thời vụ - Nghề tự do</li>
+            <li>Thực tập</li>
+          </ul>
+        </div>
+        <div class="filter-dropdown">
+          <div class="selection">
+            Kinh nghiệm làm việc<i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <ul class="option">
+            <li>Không yêu cần kinh nghiệm</li>
+            <li>Chưa có kinh nghiệm</li>
+            <li>Dưới 1 năm</li>
+            <li>Dưới 2 năm</li>
+          </ul>
+        </div>
+        <div class="filter-dropdown">
+          <div class="selection">
+            Chọn việc làm khẩn cấp<i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <ul class="option">
+            <li>Việc làm khẩn cấp</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="main-content">
+      <div class="left-column">
+        <div class="job-card">
+          <div class="job-logo">
+            <img src="./img/92933logo.webp" alt="" />
+          </div>
+          <div class="job-info">
+            <h3 class="job-title">
+              IT Executive
+              <span class="badge-urgent"
+                ><i class="fa-solid fa-bolt"></i> URGENT</span
+              >
+            </h3>
+            <p class="company-name">VIETNAM AMERICAN OIL TOOLS.,JSC</p>
+            <div class="job-meta">
+              <span class="salary"
+                ><i class="fa-solid fa-dollar-sign"></i>Lương: 25 Tr - 28 Tr
+                VND</span
+              >
+              <span class="locati"
+                ><i class="fa-solid fa-location-dot"></i>Bình Dương</span
+              >
+            </div>
+            <div class="job-time">
+              <span class="limit">
+                <i class="fa-regular fa-clock"></i> Hạn nộp: 14-04-2026
+              </span>
+              <span class="divider"> | </span>
+              <span> Cập nhật: 21-03-2026 </span>
+            </div>
+            <div class="job-tag">
+              <span> <i class="fa-solid fa-laptop"></i> Laptop </span>
+              <span>
+                <i class="fa-solid fa-shield-halved"></i> Chế độ bảo hiểm
+              </span>
+              <span> <i class="fa-solid fa-plane"></i> Du Lịch </span>
+            </div>
+          </div>
+
+          <div class="job-action">
+            <i class="fa-regular fa-heart heart-icon"></i>
+            <button class="btn-apply">ỨNG TUYỂN NGAY</button>
+          </div>
+        </div>
+
+        <div class="job-card">
+          <div class="job-logo">
+            <img src="./img/100715logosunlightupwebtimviec.webp" alt="" />
+          </div>
+          <div class="job-info">
+            <h3 class="job-title">
+              SALES MANAGER
+              <span class="badge-urgent"><b>(Mới)</b></span>
+            </h3>
+            <p class="company-name">Sunlight Electrical(VietNam)Co.,Ltd.</p>
+            <div class="job-meta">
+              <span class="salary"
+                ><i class="fa-solid fa-dollar-sign"></i>Lương: 40 Tr - 56 Tr
+                VND</span
+              >
+              <span class="locati"
+                ><i class="fa-solid fa-location-dot"></i>Hà Nội</span
+              >
+            </div>
+            <div class="job-time">
+              <span class="limit">
+                <i class="fa-regular fa-clock"></i> Hạn nộp: 20-04-2026
+              </span>
+              <span class="divider"> | </span>
+              <span> Cập nhật: 21-03-2026 </span>
+            </div>
+            <div class="job-tag">
+              <span> <i class="fa-solid fa-laptop"></i> Laptop </span>
+              <span>
+                <i class="fa-solid fa-shield-halved"></i> Chế độ bảo hiểm
+              </span>
+              <span> <i class="fa-solid fa-plane"></i> Du Lịch </span>
+            </div>
+          </div>
+
+          <div class="job-action">
+            <i class="fa-regular fa-heart heart-icon"></i>
+            <button class="btn-apply">ỨNG TUYỂN NGAY</button>
+          </div>
+        </div>
+
+        <div class="job-card">
+          <div class="job-logo">
+            <img src="./img/114750logo.webp" alt="" />
+          </div>
+          <div class="job-info">
+            <h3 class="job-title">
+              Chuyên Viên Kinh Doanh Dự Án
+              <span class="badge-urgent"><b>(Mới)</b></span>
+            </h3>
+            <p class="company-name">Công ty TNHH Đầu Tư Xây Dựng & Công Nghệ</p>
+            <div class="job-meta">
+              <span class="salary"
+                ><i class="fa-solid fa-dollar-sign"></i>Lương: 20 Tr - 30 Tr
+                VND</span
+              >
+              <span class="locati"
+                ><i class="fa-solid fa-location-dot"></i>Hà Nội</span
+              >
+            </div>
+            <div class="job-time">
+              <span class="limit">
+                <i class="fa-regular fa-clock"></i> Hạn nộp: 14-04-2026
+              </span>
+              <span class="divider"> | </span>
+              <span> Cập nhật: 21-03-2026 </span>
+            </div>
+            <div class="job-tag">
+              <span> <i class="fa-solid fa-laptop"></i> Laptop </span>
+              <span>
+                <i class="fa-solid fa-shield-halved"></i> Chế độ bảo hiểm
+              </span>
+              <span> <i class="fa-solid fa-plane"></i> Du Lịch </span>
+            </div>
+          </div>
+          <div class="job-action">
+            <i class="fa-regular fa-heart heart-icon"></i>
+            <button class="btn-apply">ỨNG TUYỂN NGAY</button>
+          </div>
+        </div>
+        <div class="job-card">
+          <div class="job-logo">
+            <img src="./img/logo20(2).webp" alt="" />
+          </div>
+          <div class="job-info">
+            <h3 class="job-title">
+              QUẢN LÝ NHÂN SỰ/ QUẢN LÝ VẬN HÀNH NỘI BỘ
+              <span class="badge-urgent"
+                ><i class="fa-solid fa-bolt"></i> URGENT</span
+              >
+            </h3>
+            <p class="company-name">VIETNAM AMERICAN OIL TOOLS.,JSC</p>
+            <div class="job-meta">
+              <span class="salary"
+                ><i class="fa-solid fa-dollar-sign"></i>Lương: 25 Tr - 28 Tr
+                VND</span
+              >
+              <span class="locati"
+                ><i class="fa-solid fa-location-dot"></i>Bình Dương</span
+              >
+            </div>
+            <div class="job-time">
+              <span class="limit">
+                <i class="fa-regular fa-clock"></i> Hạn nộp: 14-04-2026
+              </span>
+              <span class="divider"> | </span>
+              <span> Cập nhật: 21-03-2026 </span>
+            </div>
+            <div class="job-tag">
+              <span> <i class="fa-solid fa-laptop"></i> Laptop </span>
+              <span>
+                <i class="fa-solid fa-shield-halved"></i> Chế độ bảo hiểm
+              </span>
+              <span> <i class="fa-solid fa-plane"></i> Du Lịch </span>
+            </div>
+          </div>
+
+          <div class="job-action">
+            <i class="fa-regular fa-heart heart-icon"></i>
+            <button class="btn-apply">ỨNG TUYỂN NGAY</button>
+          </div>
+        </div>
+        <!-- 
+        
+        -->
+        <div class="job-card">
+          <div class="job-logo">
+            <img src="./img/Logo20PNG-01.webp" alt="" />
+          </div>
+          <div class="job-info">
+            <h3 class="job-title">
+              CÔNG TY CỔ PHẦN LUX DECOR SÀI GÒN
+              <span class="badge-urgent"
+                ><i class="fa-solid fa-bolt"></i> URGENT</span
+              >
+            </h3>
+            <p class="company-name">VIETNAM AMERICAN OIL TOOLS.,JSC</p>
+            <div class="job-meta">
+              <span class="salary"
+                ><i class="fa-solid fa-dollar-sign"></i>Lương: 25 Tr - 28 Tr
+                VND</span
+              >
+              <span class="locati"
+                ><i class="fa-solid fa-location-dot"></i>Bình Dương</span
+              >
+            </div>
+            <div class="job-time">
+              <span class="limit">
+                <i class="fa-regular fa-clock"></i> Hạn nộp: 14-04-2026
+              </span>
+              <span class="divider"> | </span>
+              <span> Cập nhật: 21-03-2026 </span>
+            </div>
+            <div class="job-tag">
+              <span> <i class="fa-solid fa-laptop"></i> Laptop </span>
+              <span>
+                <i class="fa-solid fa-shield-halved"></i> Chế độ bảo hiểm
+              </span>
+              <span> <i class="fa-solid fa-plane"></i> Du Lịch </span>
+            </div>
+          </div>
+
+          <div class="job-action">
+            <i class="fa-regular fa-heart heart-icon"></i>
+            <button class="btn-apply">ỨNG TUYỂN NGAY</button>
+          </div>
+        </div>
+
+        <!-- 
+         -->
+        <div class="job-card">
+          <div class="job-logo">
+            <img src="./img/75753zedercorporation-3.webp" alt="" />
+          </div>
+          <div class="job-info">
+            <h3 class="job-title">
+              HR Information System (HRIS) Specialist
+              <span class="badge-urgent"
+                ><i class="fa-solid fa-bolt"></i> URGENT</span
+              >
+            </h3>
+            <p class="company-name">VIETNAM AMERICAN OIL TOOLS.,JSC</p>
+            <div class="job-meta">
+              <span class="salary"
+                ><i class="fa-solid fa-dollar-sign"></i>Lương: 25 Tr - 28 Tr
+                VND</span
+              >
+              <span class="locati"
+                ><i class="fa-solid fa-location-dot"></i>Bình Dương</span
+              >
+            </div>
+            <div class="job-time">
+              <span class="limit">
+                <i class="fa-regular fa-clock"></i> Hạn nộp: 14-04-2026
+              </span>
+              <span class="divider"> | </span>
+              <span> Cập nhật: 21-03-2026 </span>
+            </div>
+            <div class="job-tag">
+              <span> <i class="fa-solid fa-laptop"></i> Laptop </span>
+              <span>
+                <i class="fa-solid fa-shield-halved"></i> Chế độ bảo hiểm
+              </span>
+              <span> <i class="fa-solid fa-plane"></i> Du Lịch </span>
+            </div>
+          </div>
+
+          <div class="job-action">
+            <i class="fa-regular fa-heart heart-icon"></i>
+            <button class="btn-apply">ỨNG TUYỂN NGAY</button>
+          </div>
+        </div>
+        <div class="job-card">
+          <div class="job-logo">
+            <img src="./img/logo20(2).webp" alt="" />
+          </div>
+          <div class="job-info">
+            <h3 class="job-title">
+              QUẢN LÝ NHÂN SỰ/ QUẢN LÝ VẬN HÀNH NỘI BỘ
+              <span class="badge-urgent"
+                ><i class="fa-solid fa-bolt"></i> URGENT</span
+              >
+            </h3>
+            <p class="company-name">VIETNAM AMERICAN OIL TOOLS.,JSC</p>
+            <div class="job-meta">
+              <span class="salary"
+                ><i class="fa-solid fa-dollar-sign"></i>Lương: 25 Tr - 28 Tr
+                VND</span
+              >
+              <span class="locati"
+                ><i class="fa-solid fa-location-dot"></i>Bình Dương</span
+              >
+            </div>
+            <div class="job-time">
+              <span class="limit">
+                <i class="fa-regular fa-clock"></i> Hạn nộp: 14-04-2026
+              </span>
+              <span class="divider"> | </span>
+              <span> Cập nhật: 21-03-2026 </span>
+            </div>
+            <div class="job-tag">
+              <span> <i class="fa-solid fa-laptop"></i> Laptop </span>
+              <span>
+                <i class="fa-solid fa-shield-halved"></i> Chế độ bảo hiểm
+              </span>
+              <span> <i class="fa-solid fa-plane"></i> Du Lịch </span>
+            </div>
+          </div>
+
+          <div class="job-action">
+            <i class="fa-regular fa-heart heart-icon"></i>
+            <button class="btn-apply">ỨNG TUYỂN NGAY</button>
+          </div>
+        </div>
+        <!-- 
+        
+        -->
+        <div class="job-card">
+          <div class="job-logo">
+            <img src="./img/Logo20PNG-01.webp" alt="" />
+          </div>
+          <div class="job-info">
+            <h3 class="job-title">
+              CÔNG TY CỔ PHẦN LUX DECOR SÀI GÒN
+              <span class="badge-urgent"
+                ><i class="fa-solid fa-bolt"></i> URGENT</span
+              >
+            </h3>
+            <p class="company-name">VIETNAM AMERICAN OIL TOOLS.,JSC</p>
+            <div class="job-meta">
+              <span class="salary"
+                ><i class="fa-solid fa-dollar-sign"></i>Lương: 25 Tr - 28 Tr
+                VND</span
+              >
+              <span class="locati"
+                ><i class="fa-solid fa-location-dot"></i>Bình Dương</span
+              >
+            </div>
+            <div class="job-time">
+              <span class="limit">
+                <i class="fa-regular fa-clock"></i> Hạn nộp: 14-04-2026
+              </span>
+              <span class="divider"> | </span>
+              <span> Cập nhật: 21-03-2026 </span>
+            </div>
+            <div class="job-tag">
+              <span> <i class="fa-solid fa-laptop"></i> Laptop </span>
+              <span>
+                <i class="fa-solid fa-shield-halved"></i> Chế độ bảo hiểm
+              </span>
+              <span> <i class="fa-solid fa-plane"></i> Du Lịch </span>
+            </div>
+          </div>
+
+          <div class="job-action">
+            <i class="fa-regular fa-heart heart-icon"></i>
+            <button class="btn-apply">ỨNG TUYỂN NGAY</button>
+          </div>
+        </div>
+        <div class="job-card">
+          <div class="job-logo">
+            <img src="./img/logo20(2).webp" alt="" />
+          </div>
+          <div class="job-info">
+            <h3 class="job-title">
+              QUẢN LÝ NHÂN SỰ/ QUẢN LÝ VẬN HÀNH NỘI BỘ
+              <span class="badge-urgent"
+                ><i class="fa-solid fa-bolt"></i> URGENT</span
+              >
+            </h3>
+            <p class="company-name">VIETNAM AMERICAN OIL TOOLS.,JSC</p>
+            <div class="job-meta">
+              <span class="salary"
+                ><i class="fa-solid fa-dollar-sign"></i>Lương: 25 Tr - 28 Tr
+                VND</span
+              >
+              <span class="locati"
+                ><i class="fa-solid fa-location-dot"></i>Bình Dương</span
+              >
+            </div>
+            <div class="job-time">
+              <span class="limit">
+                <i class="fa-regular fa-clock"></i> Hạn nộp: 14-04-2026
+              </span>
+              <span class="divider"> | </span>
+              <span> Cập nhật: 21-03-2026 </span>
+            </div>
+            <div class="job-tag">
+              <span> <i class="fa-solid fa-laptop"></i> Laptop </span>
+              <span>
+                <i class="fa-solid fa-shield-halved"></i> Chế độ bảo hiểm
+              </span>
+              <span> <i class="fa-solid fa-plane"></i> Du Lịch </span>
+            </div>
+          </div>
+
+          <div class="job-action">
+            <i class="fa-regular fa-heart heart-icon"></i>
+            <button class="btn-apply">ỨNG TUYỂN NGAY</button>
+          </div>
+        </div>
+        <!-- 
+        
+        -->
+        <div class="job-card">
+          <div class="job-logo">
+            <img src="./img/Logo20PNG-01.webp" alt="" />
+          </div>
+          <div class="job-info">
+            <h3 class="job-title">
+              CÔNG TY CỔ PHẦN LUX DECOR SÀI GÒN
+              <span class="badge-urgent"
+                ><i class="fa-solid fa-bolt"></i> URGENT</span
+              >
+            </h3>
+            <p class="company-name">VIETNAM AMERICAN OIL TOOLS.,JSC</p>
+            <div class="job-meta">
+              <span class="salary"
+                ><i class="fa-solid fa-dollar-sign"></i>Lương: 25 Tr - 28 Tr
+                VND</span
+              >
+              <span class="locati"
+                ><i class="fa-solid fa-location-dot"></i>Bình Dương</span
+              >
+            </div>
+            <div class="job-time">
+              <span class="limit">
+                <i class="fa-regular fa-clock"></i> Hạn nộp: 14-04-2026
+              </span>
+              <span class="divider"> | </span>
+              <span> Cập nhật: 21-03-2026 </span>
+            </div>
+            <div class="job-tag">
+              <span> <i class="fa-solid fa-laptop"></i> Laptop </span>
+              <span>
+                <i class="fa-solid fa-shield-halved"></i> Chế độ bảo hiểm
+              </span>
+              <span> <i class="fa-solid fa-plane"></i> Du Lịch </span>
+            </div>
+          </div>
+
+          <div class="job-action">
+            <i class="fa-regular fa-heart heart-icon"></i>
+            <button class="btn-apply">ỨNG TUYỂN NGAY</button>
+          </div>
+        </div>
+
+        <!-- 
+         -->
+        <div class="job-card">
+          <div class="job-logo">
+            <img src="./img/75753zedercorporation-3.webp" alt="" />
+          </div>
+          <div class="job-info">
+            <h3 class="job-title">
+              HR Information System (HRIS) Specialist
+              <span class="badge-urgent"
+                ><i class="fa-solid fa-bolt"></i> URGENT</span
+              >
+            </h3>
+            <p class="company-name">VIETNAM AMERICAN OIL TOOLS.,JSC</p>
+            <div class="job-meta">
+              <span class="salary"
+                ><i class="fa-solid fa-dollar-sign"></i>Lương: 25 Tr - 28 Tr
+                VND</span
+              >
+              <span class="locati"
+                ><i class="fa-solid fa-location-dot"></i>Bình Dương</span
+              >
+            </div>
+            <div class="job-time">
+              <span class="limit">
+                <i class="fa-regular fa-clock"></i> Hạn nộp: 14-04-2026
+              </span>
+              <span class="divider"> | </span>
+              <span> Cập nhật: 21-03-2026 </span>
+            </div>
+            <div class="job-tag">
+              <span> <i class="fa-solid fa-laptop"></i> Laptop </span>
+              <span>
+                <i class="fa-solid fa-shield-halved"></i> Chế độ bảo hiểm
+              </span>
+              <span> <i class="fa-solid fa-plane"></i> Du Lịch </span>
+            </div>
+          </div>
+
+          <div class="job-action">
+            <i class="fa-regular fa-heart heart-icon"></i>
+            <button class="btn-apply">ỨNG TUYỂN NGAY</button>
+          </div>
+        </div>
+        <div class="job-card">
+          <div class="job-logo">
+            <img src="./img/logo20(2).webp" alt="" />
+          </div>
+          <div class="job-info">
+            <h3 class="job-title">
+              QUẢN LÝ NHÂN SỰ/ QUẢN LÝ VẬN HÀNH NỘI BỘ
+              <span class="badge-urgent"
+                ><i class="fa-solid fa-bolt"></i> URGENT</span
+              >
+            </h3>
+            <p class="company-name">VIETNAM AMERICAN OIL TOOLS.,JSC</p>
+            <div class="job-meta">
+              <span class="salary"
+                ><i class="fa-solid fa-dollar-sign"></i>Lương: 25 Tr - 28 Tr
+                VND</span
+              >
+              <span class="locati"
+                ><i class="fa-solid fa-location-dot"></i>Bình Dương</span
+              >
+            </div>
+            <div class="job-time">
+              <span class="limit">
+                <i class="fa-regular fa-clock"></i> Hạn nộp: 14-04-2026
+              </span>
+              <span class="divider"> | </span>
+              <span> Cập nhật: 21-03-2026 </span>
+            </div>
+            <div class="job-tag">
+              <span> <i class="fa-solid fa-laptop"></i> Laptop </span>
+              <span>
+                <i class="fa-solid fa-shield-halved"></i> Chế độ bảo hiểm
+              </span>
+              <span> <i class="fa-solid fa-plane"></i> Du Lịch </span>
+            </div>
+          </div>
+
+          <div class="job-action">
+            <i class="fa-regular fa-heart heart-icon"></i>
+            <button class="btn-apply">ỨNG TUYỂN NGAY</button>
+          </div>
+        </div>
+        <!-- 
+        
+        -->
+        <div class="job-card">
+          <div class="job-logo">
+            <img src="./img/Logo20PNG-01.webp" alt="" />
+          </div>
+          <div class="job-info">
+            <h3 class="job-title">
+              CÔNG TY CỔ PHẦN LUX DECOR SÀI GÒN
+              <span class="badge-urgent"
+                ><i class="fa-solid fa-bolt"></i> URGENT</span
+              >
+            </h3>
+            <p class="company-name">VIETNAM AMERICAN OIL TOOLS.,JSC</p>
+            <div class="job-meta">
+              <span class="salary"
+                ><i class="fa-solid fa-dollar-sign"></i>Lương: 25 Tr - 28 Tr
+                VND</span
+              >
+              <span class="locati"
+                ><i class="fa-solid fa-location-dot"></i>Bình Dương</span
+              >
+            </div>
+            <div class="job-time">
+              <span class="limit">
+                <i class="fa-regular fa-clock"></i> Hạn nộp: 14-04-2026
+              </span>
+              <span class="divider"> | </span>
+              <span> Cập nhật: 21-03-2026 </span>
+            </div>
+            <div class="job-tag">
+              <span> <i class="fa-solid fa-laptop"></i> Laptop </span>
+              <span>
+                <i class="fa-solid fa-shield-halved"></i> Chế độ bảo hiểm
+              </span>
+              <span> <i class="fa-solid fa-plane"></i> Du Lịch </span>
+            </div>
+          </div>
+
+          <div class="job-action">
+            <i class="fa-regular fa-heart heart-icon"></i>
+            <button class="btn-apply">ỨNG TUYỂN NGAY</button>
+          </div>
+        </div>
+
+        <!-- 
+         -->
+        <div class="job-card">
+          <div class="job-logo">
+            <img src="./img/75753zedercorporation-3.webp" alt="" />
+          </div>
+          <div class="job-info">
+            <h3 class="job-title">
+              HR Information System (HRIS) Specialist
+              <span class="badge-urgent"
+                ><i class="fa-solid fa-bolt"></i> URGENT</span
+              >
+            </h3>
+            <p class="company-name">VIETNAM AMERICAN OIL TOOLS.,JSC</p>
+            <div class="job-meta">
+              <span class="salary"
+                ><i class="fa-solid fa-dollar-sign"></i>Lương: 25 Tr - 28 Tr
+                VND</span
+              >
+              <span class="locati"
+                ><i class="fa-solid fa-location-dot"></i>Bình Dương</span
+              >
+            </div>
+            <div class="job-time">
+              <span class="limit">
+                <i class="fa-regular fa-clock"></i> Hạn nộp: 14-04-2026
+              </span>
+              <span class="divider"> | </span>
+              <span> Cập nhật: 21-03-2026 </span>
+            </div>
+            <div class="job-tag">
+              <span> <i class="fa-solid fa-laptop"></i> Laptop </span>
+              <span>
+                <i class="fa-solid fa-shield-halved"></i> Chế độ bảo hiểm
+              </span>
+              <span> <i class="fa-solid fa-plane"></i> Du Lịch </span>
+            </div>
+          </div>
+
+          <div class="job-action">
+            <i class="fa-regular fa-heart heart-icon"></i>
+            <button class="btn-apply">ỨNG TUYỂN NGAY</button>
+          </div>
+        </div>
+        <!-- 
+         -->
+        <div class="job-card">
+          <div class="job-logo">
+            <img src="./img/75753zedercorporation-3.webp" alt="" />
+          </div>
+          <div class="job-info">
+            <h3 class="job-title">
+              HR Information System (HRIS) Specialist
+              <span class="badge-urgent"
+                ><i class="fa-solid fa-bolt"></i> URGENT</span
+              >
+            </h3>
+            <p class="company-name">VIETNAM AMERICAN OIL TOOLS.,JSC</p>
+            <div class="job-meta">
+              <span class="salary"
+                ><i class="fa-solid fa-dollar-sign"></i>Lương: 25 Tr - 28 Tr
+                VND</span
+              >
+              <span class="locati"
+                ><i class="fa-solid fa-location-dot"></i>Bình Dương</span
+              >
+            </div>
+            <div class="job-time">
+              <span class="limit">
+                <i class="fa-regular fa-clock"></i> Hạn nộp: 14-04-2026
+              </span>
+              <span class="divider"> | </span>
+              <span> Cập nhật: 21-03-2026 </span>
+            </div>
+            <div class="job-tag">
+              <span> <i class="fa-solid fa-laptop"></i> Laptop </span>
+              <span>
+                <i class="fa-solid fa-shield-halved"></i> Chế độ bảo hiểm
+              </span>
+              <span> <i class="fa-solid fa-plane"></i> Du Lịch </span>
+            </div>
+          </div>
+
+          <div class="job-action">
+            <i class="fa-regular fa-heart heart-icon"></i>
+            <button class="btn-apply">ỨNG TUYỂN NGAY</button>
+          </div>
+        </div>
+        <div class="job-card">
+          <div class="job-logo">
+            <img src="./img/logo20(2).webp" alt="" />
+          </div>
+          <div class="job-info">
+            <h3 class="job-title">
+              QUẢN LÝ NHÂN SỰ/ QUẢN LÝ VẬN HÀNH NỘI BỘ
+              <span class="badge-urgent"
+                ><i class="fa-solid fa-bolt"></i> URGENT</span
+              >
+            </h3>
+            <p class="company-name">VIETNAM AMERICAN OIL TOOLS.,JSC</p>
+            <div class="job-meta">
+              <span class="salary"
+                ><i class="fa-solid fa-dollar-sign"></i>Lương: 25 Tr - 28 Tr
+                VND</span
+              >
+              <span class="locati"
+                ><i class="fa-solid fa-location-dot"></i>Bình Dương</span
+              >
+            </div>
+            <div class="job-time">
+              <span class="limit">
+                <i class="fa-regular fa-clock"></i> Hạn nộp: 14-04-2026
+              </span>
+              <span class="divider"> | </span>
+              <span> Cập nhật: 21-03-2026 </span>
+            </div>
+            <div class="job-tag">
+              <span> <i class="fa-solid fa-laptop"></i> Laptop </span>
+              <span>
+                <i class="fa-solid fa-shield-halved"></i> Chế độ bảo hiểm
+              </span>
+              <span> <i class="fa-solid fa-plane"></i> Du Lịch </span>
+            </div>
+          </div>
+
+          <div class="job-action">
+            <i class="fa-regular fa-heart heart-icon"></i>
+            <button class="btn-apply">ỨNG TUYỂN NGAY</button>
+          </div>
+        </div>
+        <!-- 
+        
+        -->
+        <div class="job-card">
+          <div class="job-logo">
+            <img src="./img/Logo20PNG-01.webp" alt="" />
+          </div>
+          <div class="job-info">
+            <h3 class="job-title">
+              CÔNG TY CỔ PHẦN LUX DECOR SÀI GÒN
+              <span class="badge-urgent"
+                ><i class="fa-solid fa-bolt"></i> URGENT</span
+              >
+            </h3>
+            <p class="company-name">VIETNAM AMERICAN OIL TOOLS.,JSC</p>
+            <div class="job-meta">
+              <span class="salary"
+                ><i class="fa-solid fa-dollar-sign"></i>Lương: 25 Tr - 28 Tr
+                VND</span
+              >
+              <span class="locati"
+                ><i class="fa-solid fa-location-dot"></i>Bình Dương</span
+              >
+            </div>
+            <div class="job-time">
+              <span class="limit">
+                <i class="fa-regular fa-clock"></i> Hạn nộp: 14-04-2026
+              </span>
+              <span class="divider"> | </span>
+              <span> Cập nhật: 21-03-2026 </span>
+            </div>
+            <div class="job-tag">
+              <span> <i class="fa-solid fa-laptop"></i> Laptop </span>
+              <span>
+                <i class="fa-solid fa-shield-halved"></i> Chế độ bảo hiểm
+              </span>
+              <span> <i class="fa-solid fa-plane"></i> Du Lịch </span>
+            </div>
+          </div>
+
+          <div class="job-action">
+            <i class="fa-regular fa-heart heart-icon"></i>
+            <button class="btn-apply">ỨNG TUYỂN NGAY</button>
+          </div>
+        </div>
+
+        <!-- 
+         -->
+        <div class="job-card">
+          <div class="job-logo">
+            <img src="./img/75753zedercorporation-3.webp" alt="" />
+          </div>
+          <div class="job-info">
+            <h3 class="job-title">
+              HR Information System (HRIS) Specialist
+              <span class="badge-urgent"
+                ><i class="fa-solid fa-bolt"></i> URGENT</span
+              >
+            </h3>
+            <p class="company-name">VIETNAM AMERICAN OIL TOOLS.,JSC</p>
+            <div class="job-meta">
+              <span class="salary"
+                ><i class="fa-solid fa-dollar-sign"></i>Lương: 25 Tr - 28 Tr
+                VND</span
+              >
+              <span class="locati"
+                ><i class="fa-solid fa-location-dot"></i>Bình Dương</span
+              >
+            </div>
+            <div class="job-time">
+              <span class="limit">
+                <i class="fa-regular fa-clock"></i> Hạn nộp: 14-04-2026
+              </span>
+              <span class="divider"> | </span>
+              <span> Cập nhật: 21-03-2026 </span>
+            </div>
+            <div class="job-tag">
+              <span> <i class="fa-solid fa-laptop"></i> Laptop </span>
+              <span>
+                <i class="fa-solid fa-shield-halved"></i> Chế độ bảo hiểm
+              </span>
+              <span> <i class="fa-solid fa-plane"></i> Du Lịch </span>
+            </div>
+          </div>
+
+          <div class="job-action">
+            <i class="fa-regular fa-heart heart-icon"></i>
+            <button class="btn-apply">ỨNG TUYỂN NGAY</button>
+          </div>
+        </div>
+      </div>
+      <!-- 
+      
+      
+      -->
+      <div class="right-column">
+        <div class="right-logo">
+          <img src="./img/banner_vi_update.webp" alt="" />
+        </div>
+        <h4>Việc làm được tìm kiếm nhiều nhất</h4>
+        <div class="box-content">
+          <ul>
+            <li><a href="">Nhân Viên Kế Toán</a></li>
+            <li><a href="">Nhân Viên Kinh Doanh</a></li>
+            <li><a href="">Sales</a></li>
+            <li><a href="">Logistics</a></li>
+            <li><a href="">Nhân Viên Bán Hàng</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="pagination">
+      <ul>
+        <li class="action">
+          <a role="button" tabindex="0">1</a>
+        </li>
+        <li>
+          <a role="button" tabindex="0">2</a>
+        </li>
+        <li>
+          <a role="button" tabindex="0">3</a>
+        </li>
+        <li>
+          <a role="button" tabindex="0">4</a>
+        </li>
+        <li>
+          <a role="button" tabindex="0">></a>
+        </li>
+      </ul>
+    </div>
+    <div class="row-container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="box-job-type">
+            <h4>Việc làm theo ngành nghề</h4>
+            <ul>
+              <li>
+                <a title="Việc làm An Ninh / Bảo Vệ" href="#"
+                  >Việc làm An Ninh / Bảo Vệ</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm An toàn lao động" href=""
+                  >Việc làm An toàn lao động</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm Bán hàng / Kinh doanh" href="#"
+                  >Việc làm Bán hàng / Kinh doanh</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm Bán lẻ / Bán sỉ" href="#"
+                  >Việc làm Bán lẻ / Bán sỉ</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm Bảo hiểm" href="#">Việc làm Bảo hiểm</a>
+              </li>
+              <li>
+                <a title="Việc làm Bất động sản" href="#"
+                  >Việc làm Bất động sản</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm Biên phiên dịch" href="#"
+                  >Việc làm Biên phiên dịch</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm Bưu chính viễn thông" href="#"
+                  >Việc làm Bưu chính viễn thông</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm CNTT - Phần cứng / Mạng" href="#"
+                  >Việc làm CNTT - Phần cứng / Mạng</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm Công nghệ sinh học" href="#"
+                  >Việc làm Công nghệ sinh học</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm Cơ khí / Ô tô / Tự động hóa" href="#"
+                  >Việc làm Cơ khí / Ô tô / Tự động hóa</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm Dầu khí" href="#">Việc làm Dầu khí</a>
+              </li>
+              <li>
+                <a title="Việc làm Dệt may / Da giày / Thời trang" href="#"
+                  >Việc làm Dệt may / Da giày / Thời trang</a
+                >
+              </li>
+              <li>
+                <a
+                  title="Việc làm Điện / Điện tử / Điện lạnh / Điện công nghiệp"
+                  href="#"
+                  >Việc làm Điện / Điện tử / Điện lạnh / Điện công nghiệp</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm Hàng gia dụng / Chăm sóc cá nhân" href="#"
+                  >Việc làm Hàng gia dụng / Chăm sóc cá nhân</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="box-job-type">
+            <h4>Việc làm theo khu vực</h4>
+            <ul>
+              <li>
+                <a title="Việc làm An Ninh / Bảo Vệ" href="#"
+                  >Việc làm An Ninh / Bảo Vệ</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm An toàn lao động" href=""
+                  >Việc làm An toàn lao động</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm Bán hàng / Kinh doanh" href="#"
+                  >Việc làm Bán hàng / Kinh doanh</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm Bán lẻ / Bán sỉ" href="#"
+                  >Việc làm Bán lẻ / Bán sỉ</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm Bảo hiểm" href="#">Việc làm Bảo hiểm</a>
+              </li>
+              <li>
+                <a title="Việc làm Bất động sản" href="#"
+                  >Việc làm Bất động sản</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm Biên phiên dịch" href="#"
+                  >Việc làm Biên phiên dịch</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm Bưu chính viễn thông" href="#"
+                  >Việc làm Bưu chính viễn thông</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm CNTT - Phần cứng / Mạng" href="#"
+                  >Việc làm CNTT - Phần cứng / Mạng</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm Công nghệ sinh học" href="#"
+                  >Việc làm Công nghệ sinh học</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm Cơ khí / Ô tô / Tự động hóa" href="#"
+                  >Việc làm Cơ khí / Ô tô / Tự động hóa</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm Dầu khí" href="#">Việc làm Dầu khí</a>
+              </li>
+              <li>
+                <a title="Việc làm Dệt may / Da giày / Thời trang" href="#"
+                  >Việc làm Dệt may / Da giày / Thời trang</a
+                >
+              </li>
+              <li>
+                <a
+                  title="Việc làm Điện / Điện tử / Điện lạnh / Điện công nghiệp"
+                  href="#"
+                  >Việc làm Điện / Điện tử / Điện lạnh / Điện công nghiệp</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm Hàng gia dụng / Chăm sóc cá nhân" href="#"
+                  >Việc làm Hàng gia dụng / Chăm sóc cá nhân</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="box-job-type">
+            <h4>Việc làm theo mức lương</h4>
+            <ul>
+              <li>
+                <a title="Việc làm An Ninh / Bảo Vệ" href="#"
+                  >Việc làm An Ninh / Bảo Vệ</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm An toàn lao động" href=""
+                  >Việc làm An toàn lao động</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm Bán hàng / Kinh doanh" href="#"
+                  >Việc làm Bán hàng / Kinh doanh</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm Bán lẻ / Bán sỉ" href="#"
+                  >Việc làm Bán lẻ / Bán sỉ</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm Bảo hiểm" href="#">Việc làm Bảo hiểm</a>
+              </li>
+              <li>
+                <a title="Việc làm Bất động sản" href="#"
+                  >Việc làm Bất động sản</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm Biên phiên dịch" href="#"
+                  >Việc làm Biên phiên dịch</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm Bưu chính viễn thông" href="#"
+                  >Việc làm Bưu chính viễn thông</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm CNTT - Phần cứng / Mạng" href="#"
+                  >Việc làm CNTT - Phần cứng / Mạng</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm Công nghệ sinh học" href="#"
+                  >Việc làm Công nghệ sinh học</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm Cơ khí / Ô tô / Tự động hóa" href="#"
+                  >Việc làm Cơ khí / Ô tô / Tự động hóa</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm Dầu khí" href="#">Việc làm Dầu khí</a>
+              </li>
+              <li>
+                <a title="Việc làm Dệt may / Da giày / Thời trang" href="#"
+                  >Việc làm Dệt may / Da giày / Thời trang</a
+                >
+              </li>
+              <li>
+                <a
+                  title="Việc làm Điện / Điện tử / Điện lạnh / Điện công nghiệp"
+                  href="#"
+                  >Việc làm Điện / Điện tử / Điện lạnh / Điện công nghiệp</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm Hàng gia dụng / Chăm sóc cá nhân" href="#"
+                  >Việc làm Hàng gia dụng / Chăm sóc cá nhân</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="box-job-type">
+            <h4>Việc làm theo cấp bậc</h4>
+            <ul>
+              <li>
+                <a title="Việc làm An Ninh / Bảo Vệ" href="#"
+                  >Việc làm An Ninh / Bảo Vệ</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm An toàn lao động" href=""
+                  >Việc làm An toàn lao động</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm Bán hàng / Kinh doanh" href="#"
+                  >Việc làm Bán hàng / Kinh doanh</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm Bán lẻ / Bán sỉ" href="#"
+                  >Việc làm Bán lẻ / Bán sỉ</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm Bảo hiểm" href="#">Việc làm Bảo hiểm</a>
+              </li>
+              <li>
+                <a title="Việc làm Bất động sản" href="#"
+                  >Việc làm Bất động sản</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm Biên phiên dịch" href="#"
+                  >Việc làm Biên phiên dịch</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm Bưu chính viễn thông" href="#"
+                  >Việc làm Bưu chính viễn thông</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm CNTT - Phần cứng / Mạng" href="#"
+                  >Việc làm CNTT - Phần cứng / Mạng</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm Công nghệ sinh học" href="#"
+                  >Việc làm Công nghệ sinh học</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm Cơ khí / Ô tô / Tự động hóa" href="#"
+                  >Việc làm Cơ khí / Ô tô / Tự động hóa</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm Dầu khí" href="#">Việc làm Dầu khí</a>
+              </li>
+              <li>
+                <a title="Việc làm Dệt may / Da giày / Thời trang" href="#"
+                  >Việc làm Dệt may / Da giày / Thời trang</a
+                >
+              </li>
+              <li>
+                <a
+                  title="Việc làm Điện / Điện tử / Điện lạnh / Điện công nghiệp"
+                  href="#"
+                  >Việc làm Điện / Điện tử / Điện lạnh / Điện công nghiệp</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm Hàng gia dụng / Chăm sóc cá nhân" href="#"
+                  >Việc làm Hàng gia dụng / Chăm sóc cá nhân</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="box-job-type">
+            <h4>Việc làm theo hình thức làm việc</h4>
+            <ul>
+              <li>
+                <a title="Việc làm An Ninh / Bảo Vệ" href="#"
+                  >Việc làm An Ninh / Bảo Vệ</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm An toàn lao động" href=""
+                  >Việc làm An toàn lao động</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm Bán hàng / Kinh doanh" href="#"
+                  >Việc làm Bán hàng / Kinh doanh</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm Bán lẻ / Bán sỉ" href="#"
+                  >Việc làm Bán lẻ / Bán sỉ</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm Bảo hiểm" href="#">Việc làm Bảo hiểm</a>
+              </li>
+              <li>
+                <a title="Việc làm Bất động sản" href="#"
+                  >Việc làm Bất động sản</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm Biên phiên dịch" href="#"
+                  >Việc làm Biên phiên dịch</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm Bưu chính viễn thông" href="#"
+                  >Việc làm Bưu chính viễn thông</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm CNTT - Phần cứng / Mạng" href="#"
+                  >Việc làm CNTT - Phần cứng / Mạng</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm Công nghệ sinh học" href="#"
+                  >Việc làm Công nghệ sinh học</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm Cơ khí / Ô tô / Tự động hóa" href="#"
+                  >Việc làm Cơ khí / Ô tô / Tự động hóa</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm Dầu khí" href="#">Việc làm Dầu khí</a>
+              </li>
+              <li>
+                <a title="Việc làm Dệt may / Da giày / Thời trang" href="#"
+                  >Việc làm Dệt may / Da giày / Thời trang</a
+                >
+              </li>
+              <li>
+                <a
+                  title="Việc làm Điện / Điện tử / Điện lạnh / Điện công nghiệp"
+                  href="#"
+                  >Việc làm Điện / Điện tử / Điện lạnh / Điện công nghiệp</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm Hàng gia dụng / Chăm sóc cá nhân" href="#"
+                  >Việc làm Hàng gia dụng / Chăm sóc cá nhân</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="box-job-type">
+            <h4>Việc làm theo ngành nghề</h4>
+            <ul>
+              <li>
+                <a title="Việc làm An Ninh / Bảo Vệ" href="#"
+                  >Việc làm An Ninh / Bảo Vệ</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm An toàn lao động" href=""
+                  >Việc làm An toàn lao động</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm Bán hàng / Kinh doanh" href="#"
+                  >Việc làm Bán hàng / Kinh doanh</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm Bán lẻ / Bán sỉ" href="#"
+                  >Việc làm Bán lẻ / Bán sỉ</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm Bảo hiểm" href="#">Việc làm Bảo hiểm</a>
+              </li>
+              <li>
+                <a title="Việc làm Bất động sản" href="#"
+                  >Việc làm Bất động sản</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm Biên phiên dịch" href="#"
+                  >Việc làm Biên phiên dịch</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm Bưu chính viễn thông" href="#"
+                  >Việc làm Bưu chính viễn thông</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm CNTT - Phần cứng / Mạng" href="#"
+                  >Việc làm CNTT - Phần cứng / Mạng</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm Công nghệ sinh học" href="#"
+                  >Việc làm Công nghệ sinh học</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm Cơ khí / Ô tô / Tự động hóa" href="#"
+                  >Việc làm Cơ khí / Ô tô / Tự động hóa</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm Dầu khí" href="#">Việc làm Dầu khí</a>
+              </li>
+              <li>
+                <a title="Việc làm Dệt may / Da giày / Thời trang" href="#"
+                  >Việc làm Dệt may / Da giày / Thời trang</a
+                >
+              </li>
+              <li>
+                <a
+                  title="Việc làm Điện / Điện tử / Điện lạnh / Điện công nghiệp"
+                  href="#"
+                  >Việc làm Điện / Điện tử / Điện lạnh / Điện công nghiệp</a
+                >
+              </li>
+              <li>
+                <a title="Việc làm Hàng gia dụng / Chăm sóc cá nhân" href="#"
+                  >Việc làm Hàng gia dụng / Chăm sóc cá nhân</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <section class="top-footer">
+                    <div class="row">
+          <div class="col-lg-12 logo">
+            <img src="./img/logo.webp" alt="" />
+          </div>
+
+            <div class="col-lg-2 col-sm-6">
+              <div class="footer-link">
+                <div class="title">Dành Cho Ứng Viên</div>
+                <ul>
+                  <li>Việc làm mới nhất</li>
+                  <li>CV Hay</li>
+                  <li>VietnamSalary</li>
+                  <li>CareerMap</li>
+                  <li>Ứng Dụng Di Động</li>
+                  <li>Sơ Đồ Trang Web</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-2 col-sm-6">
+              <div class="footer-link">
+                <div class="title">Nhà Tuyển Dụng</div>
+                <ul>
+                  <li>Đăng Tuyển Dụng</li>
+                  <li>Tìm Hồ Sơ</li>
+                  <li>Giải Pháp Talent Solution</li>
+                  <li>Sản Phẩm Dịch Vụ</li>
+                  <li>Đăng ký nhà tuyển dụng</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-2 col-sm-6">
+              <div class="footer-link">
+                <div class="title">Trung tâm trợ giúp</div>
+                <ul>
+                  <li>Về CareerViet.vn</li>
+                  <li>Chính Sách BV Thông Tin</li>
+                  <li>Chính sách GDPR</li>
+                  <li>Quy chế sàn giao dịch</li>
+                  <li>Điều khoản sử dụng</li>
+                  <li>Chính sách quyền riêng tư</li>
+                  <li>QT Giải Quyết Tranh Chấp</li>
+                  <li>Trợ giúp</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-2 col-sm-6">
+              <div class="footer-link">
+                <div class="title">Website Đối Tác</div>
+                <ul>
+                  <li>Vieclam.Tuoitre.vn</li>
+                  <li>VieclamIT.vn</li>
+                  <li>Liên Hệ</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-2 col-sm-6">
+              <div class="footer-link">
+                <div class="title">XÂY DỰNG SỰ NGHIỆP</div>
+                <ul>
+                  <li>Freelancer</li>
+                  <li>Thiết kế nội thất</li>
+                  <li>Digital marketing</li>
+                  <li>Thiết kế đồ họa</li>
+                  <li>Giám sát an toàn</li>
+                  <li>Telesale</li>
+                  <li>Nhân viên kinh doanh</li>
+                  <li>Administrator</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-2 col-sm-6">
+              <div class="footer-link">
+                <div class="title">Tìm Kiếm Mọi Lúc Mọi Nơi</div>
+                <div class="app-link">
+                  <a href=""><img src="./img/apple.webp" alt="" /></a>
+                  <a href=""><img src="/img/android.webp" alt="" /></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2 col-sm-6">
+              <div class="footer-link">
+                <div class="title">Kết nối với CareerViet.vn</div>
+                <ul class="d-flex gap 3">
+                  <li>
+                    <a href=""
+                      ><span><i class="fa-brands fa-facebook"></i></span
+                    ></a>
+                  </li>
+                  <li>
+                    <a href=""
+                      ><span><i class="fa-brands fa-linkedin-in"></i></span
+                    ></a>
+                  </li>
+                  <li>
+                    <a href=""
+                      ><span><i class="fa-brands fa-youtube"></i></span
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          </div>
+        </section>
+        
+        <section class="bottom-flooter"></section>
+      </div>
+    </footer>
+  </body>
+</html>
